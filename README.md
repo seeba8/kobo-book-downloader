@@ -1,23 +1,10 @@
-## Alternatives to kobodl
-
-I used to prefer `kobodl` because it's **standalone**, which means you don't need other proprietary software like Adobe Digial Editions or Kindle for PC (that I can't use on Linux). However, I have since discoverd a way to do this with [Calibre](https://github.com/kovidgoyal/calibre) and 2 plugins:
-
-* [Leseratte10/acsm-calibre-plugin](https://github.com/Leseratte10/acsm-calibre-plugin) - A plugin that can read Adobe Digital Editions files that Kobo web download produces.
-* [noDRM/DeDRM_tools](https://github.com/noDRM/DeDRM_tools) - The popular DRM removal plugin.
-
-Now you can just download the `.acm` file from your book list on Kobo.com and load it into Calibre desktop!
-
-It doesn't work with audiobooks and is a little harder to set up, but I think it's overall a better solution and I am not using kobodl personally much anymore. If anyone is interested in becoming a new maintainer of kobodl please let me know by opening a [discussion](https://github.com/subdavis/kobo-book-downloader/discussions).  I will still try to keep it functioning as long as I can, and bug reports are still appreciated.
+## Forked from subdavis/kobo-book-downloader
+In an attempt to fix https://github.com/subdavis/kobo-book-downloader/issues/112
 
 ---
 
 ![kobodl logo](docs/kobodl.png)
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/subdavis/kobo-book-downloader/build.yml?branch=main&style=for-the-badge)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/subdavis/kobo-book-downloader?style=for-the-badge)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/kobodl?style=for-the-badge)
-![PyPI - License](https://img.shields.io/pypi/l/kobodl?style=for-the-badge)
-![PyPI](https://img.shields.io/pypi/v/kobodl?style=for-the-badge)
 
 # kobodl
 
@@ -288,4 +275,6 @@ This might be a violation.  This client announces itself to Kobo servers as an A
 
 > Kobo may also take steps to prevent fraud, such as restricting the number of titles that may be accessed at one time, and monitoring Customer accounts for any activity that may violate these Terms. If Kobo discovers any type of fraud, Kobo reserves the right to take enforcement action including the termination or suspension of a User’s account.
 
-In other words, you could have your account suspended for using `kobodl`. **Please open an issue on the issue tracker if this happens to you.**
+In other words, you could have your account suspended for using `kobodl`. 
+
+
